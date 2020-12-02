@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color: black;
+    font-family:'Poppins', sans-serif;
+}
+
+body{
+    background:#f2f2f2;
+}
+
+nav{
+    background:f2f2f2;
+}
+
+nav:after{
+    content:'';
+    clear: both;
+    display: table;
+}
+
+nav .logo{
+    float: left;
+    color: black;
+    font-size: 27px;
+    font-weight: 100;
+    word-spacing: 10px;
+    line-height: 220px;
+    padding-left: 150px;
+}
+
+nav ul{
+    float: right;
+    list-style: none;
+    margin-right: 100px;
+    position: relative;
+}
+
+nav ul li{
+    float: left;
+    display: inline-block;
+    background: f2f2f2;
+    margin: 0 12px;
+}
+
+nav ul li a{
+    color: rgb(82, 81, 81);
+    text-decoration: none;
+    line-height: 220px;
+    font-size: 15px;
+    padding: 18px 20px;
+}
+
+nav ul li a:hover{
+    color: black;
+}
+
+nav ul ul li a:hover{
+    color: black;
+    box-shadow: none;
+}
+
+nav ul ul{
+    position: absolute;
+    top: 50px;
+    opacity: 0;
+    visibility: hidden;
+    transition: top .3s;
+}
+
+nav ul ul ul{
+    border-top: none;
+}
+
+nav ul li:hover > ul{
+    top: 130px;
+    opacity: 1;
+    visibility: visible;
+}
+
+nav ul ul li{
+    position: relative;
+    margin: 0px;
+    width: 150px;
+    float:none;
+    display: list-item;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+
+nav ul ul li a{
+    line-height: 35px;
+}
+
+nav ul ul ul li{
+    position: relative;
+    top: -94px;
+    left: 150px;
+}
+
