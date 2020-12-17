@@ -150,34 +150,91 @@ nav ul ul ul li{
     }
 }
 
-.flexbox-container{
-margin:100px;
-height:150px;
-display:flex;
-justify-content: space-around;
-align-items: center;
-align-content: flex-end;
+main{
+    margin: 0 150px;
 }
 
-.row-01{
-   background-color:white;
-   width:200px;
-   margin:10px;
-   border:3px solid black;
-   background-color: white;
+.one{
+    width: 100%;
+    height: auto;
+    margin:0 auto;
+    display: flex;
+}
+.oneImage{
+    width: 55%;
+}
+.oneImage img{
+    width: 100%;
+}
+.oneCon{
+    width: 40%;
+    margin: 0 0 0 8%;
+    font-family:'Didot';
+}
+.conOne{
+    width: 100%;
+    height: 3%;
+    display: flex;
+}
+.title{
+    width: 100%;
+}
+.title p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.year{
+    width: 40%;
+}
+.year p{
+    font-size: 13px;
+    line-height: 30px;
+}
+.conTwo{
+    width: 100%;
+    height: 15%;
+}
+.conTwo p{
+    font-size: 13px;
+    margin-top: 10%;
+}
+.conThree{
+    width: 100%;
+    height: 60%;
+    padding: 0;
+}
+.conThree p{
+    font-size: 14px;
+    line-height: 30px;
+}
+.conFour{
+    width: 100%;
+    height: 20%;
+}
+.conFour p{
+    font-size: 14px;
+    line-height: 30px;
 }
 
-.box-01{
-    min-height: 100px;
-    flex-shrink: 0;
-    aligh-self: flex-end;
-    order: 1;
+.two{
+    width: 100%;
+    height: auto;
+    margin:5% 1% auto;
+    display: flex;
 }
 
-.box-02{
-    min-height: 200px;
-    flex-grow: 2;
-    flex-basis: 0;
-    align-self: center;
-    order:2;
+.two p{
+    font-size: 14px;
+    line-height: 30px;
 }
+
+.mainImage{
+    width: 100%;
+    height: auto;
+    margin:50px auto;
+}
+.mainImage img{
+    width:100%;
+}
+
+
