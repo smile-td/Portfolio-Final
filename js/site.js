@@ -213,6 +213,90 @@ base('Case Study Table').select({
                   myElement1l.src = records[4].fields.Process[0].url;
               }
 
+//photography
+
+var myElement1a = document.getElementById('title6');
+var myElement1b = document.getElementById('year6');
+var myElement1c = document.getElementById('medium6');
+var myElement1d = document.getElementById('role6');
+var myElement1e = document.getElementById('credits6');
+var myElement1f = document.getElementById('description6');
+var myElement1g = document.getElementById('oneImg6');
+var myElement1h = document.getElementById('twoImg6');
+var myElement1i = document.getElementById('threeImg6');
+var myElement1j = document.getElementById('fourImg6');
+var myElement1k = document.getElementById('fiveImg6');
+var myElement1l = document.getElementById('processImg6');
+
+if(myElement1a){
+    myElement1a.innerHTML = records[5].fields.WorkTitle;
+}if(myElement1b){
+    myElement1b.innerHTML = records[5].fields.WorkYear;
+}if(myElement1c){
+    myElement1c.innerHTML = records[5].fields.WorkMedium;
+}if(myElement1d){
+    myElement1d.innerHTML = records[5].fields.WorkRole;
+}if(myElement1e){
+    myElement1e.innerHTML = records[5].fields.WorkCredits;
+}if(myElement1f){
+    myElement1f.innerHTML = records[5].fields.WorkDescription;
+}if(myElement1g){
+    myElement1g.src = records[5].fields.Description_Image[0].url;
+}if(myElement1h){
+myElement1h.src = records[5].fields.Displaying_Image1[0].url;
+}if(myElement1i){
+myElement1i.src = records[5].fields.Displaying_Image2[0].url;
+}if(myElement1j){
+myElement1j.src = records[5].fields.Displaying_Image3[0].url;
+}if(myElement1k){
+    myElement1k.src = records[5].fields.Displaying_Image4[0].url;
+}if(myElement1l){
+    myElement1l.src = records[5].fields.Process[0].url;
+}
+
+
+//design&tech
+
+var myElement1a = document.getElementById('title7');
+var myElement1b = document.getElementById('year7');
+var myElement1c = document.getElementById('medium7');
+var myElement1d = document.getElementById('role7');
+var myElement1e = document.getElementById('credits7');
+var myElement1f = document.getElementById('description7');
+var myElement1g = document.getElementById('oneImg7');
+var myElement1h = document.getElementById('twoImg7');
+var myElement1i = document.getElementById('threeImg7');
+var myElement1j = document.getElementById('fourImg7');
+var myElement1k = document.getElementById('fiveImg7');
+var myElement1l = document.getElementById('processImg7');
+
+if(myElement1a){
+    myElement1a.innerHTML = records[6].fields.WorkTitle;
+}if(myElement1b){
+    myElement1b.innerHTML = records[6].fields.WorkYear;
+}if(myElement1c){
+    myElement1c.innerHTML = records[6].fields.WorkMedium;
+}if(myElement1d){
+    myElement1d.innerHTML = records[6].fields.WorkRole;
+}if(myElement1e){
+    myElement1e.innerHTML = records[6].fields.WorkCredits;
+}if(myElement1f){
+    myElement1f.innerHTML = records[6].fields.WorkDescription;
+}if(myElement1g){
+    myElement1g.src = records[6].fields.Description_Image[0].url;
+}if(myElement1h){
+myElement1h.src = records[6].fields.Displaying_Image1[0].url;
+}if(myElement1i){
+myElement1i.src = records[6].fields.Displaying_Image2[0].url;
+}if(myElement1j){
+myElement1j.src = records[6].fields.Displaying_Image3[0].url;
+}if(myElement1k){
+    myElement1k.src = records[6].fields.Displaying_Image4[0].url;
+}if(myElement1l){
+    myElement1l.src = records[6].fields.Process[0].url;
+}
+
+
     // This function (`page`) will get called for each page of records.
 
 /*
