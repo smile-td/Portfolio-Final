@@ -103,6 +103,7 @@ base('Case Study Table').select({
    var myElement1j = document.getElementById('fourImg3');
    var myElement1k = document.getElementById('fiveImg3');
    var myElement1l = document.getElementById('processImg3');
+
    
    if(myElement1a){
        myElement1a.innerHTML = records[2].fields.WorkTitle;

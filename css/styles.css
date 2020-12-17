@@ -345,11 +345,14 @@ main{
     height: 500px;
     border-radius:10px;
     overflow: hidden;
+    justify-content:center;
+    align-items: center;
+    margin: 0 20% 5% 20%;
 }
 
 .slides{
     width:500%;
-    height:500px;
+    height:100%;
     display:flex;
 }
 
@@ -364,7 +367,7 @@ main{
 
 .slide img{
     width:800px;
-    height:500px;
+    height:520px;
 }
 
 .navigation-manual{
@@ -396,23 +399,23 @@ main{
     margin-left: 0;
 }
 #radio2:checked ~ .first{
-    margin-left: -12.5%;
+    margin-left: -20%;
 }
 #radio3:checked ~ .first{
-    margin-left: -25%;
+    margin-left: -40%;
 }
 #radio4:checked ~ .first{
-    margin-left: -37.5%;
+    margin-left: -60%;
 }
 #radio5:checked ~ .first{
-    margin-left: -50%;
+    margin-left: -80%;
 }
 
 #radio6:checked ~ .first{
-    margin-left: -62.5%;
+    margin-left: -100%;
 }
 #radio7:checked ~ .first{
-    margin-left: -75%;
+    margin-left: -120%;
 }
 
 .navigation-auto{
