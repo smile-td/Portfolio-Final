@@ -230,3 +230,13 @@ base('Case Study Table').select({
     if (err) { console.error(err); return; }
 });
 
+var counter = 1;
+setInterval(function(){
+    document.getElementById('radio' + counter).checked = true;
+    counter++;
+    if(counter > 7){
+        counter = 1;
+    }
+}, 5000);
+
+
