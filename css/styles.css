@@ -68,7 +68,7 @@ nav ul ul{
     top: 50px;
     opacity: 0;
     visibility: hidden;
-    transition: top .3s;
+    transition: top .5s;
 }
 
 nav ul ul ul{
@@ -139,6 +139,7 @@ nav ul ul ul li{
     margin: auto;
     transform: rotate(45deg);
 }
+
 
 @media (max-width: 768px){
     .diamond{
@@ -238,3 +239,29 @@ main{
 }
 
 
+.contact{
+    width:100%;
+    height:auto;
+    margin:12% 0 10% 0;
+    padding-top: 5%;
+    text-align:center;
+    font-size:18px;
+}
+
+.contact p{
+    font-family:'Georgia', sans-serif;
+    color: rgb(124, 124, 124);
+    font-weight: lighter;
+}
+
+.info{
+    width:100%;
+    height:auto;
+    text-align:center;
+    font-size:14px;
+}
+
+.info p{
+    font-family:'Georgia', sans-serif;
+    color: rgb(65, 65, 65);
+}
